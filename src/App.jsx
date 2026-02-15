@@ -18,7 +18,7 @@ class App extends Component {
       if (pet.id === id) {
         return {
           ...pet,
-          image: "https://placedog.net/300/300?id=5", // happy image
+          image: "https://www.baldivisvet.com.au/wp-content/uploads/2017/10/happy-dog-on-grass1920.jpg", 
           status: "Happy 🐶❤️"
         };
       }
