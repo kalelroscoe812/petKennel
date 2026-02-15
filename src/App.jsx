@@ -19,7 +19,7 @@ class App extends Component {
         return {
           ...pet,
           image: "https://www.baldivisvet.com.au/wp-content/uploads/2017/10/happy-dog-on-grass1920.jpg", 
-          status: "Happy 🐶❤️"
+          status: "Happy ❤️"
         };
       }
       return pet;
@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div style={{ padding: "40px", fontFamily: "Arial" }}>
-        <h1>🐾 Pet Kennel Dashboard</h1>
+        <h1> Pet Kennel Dashboard</h1>
 
         <div style={{ display: "flex", gap: "20px", marginTop: "20px" }}>
           
