@@ -8,7 +8,7 @@ export const initialData = [
   {
     id: 2,
     name: "Luna",
-    image: "https://thumbs.dreamstime.com/b/blue-staff-bull-terrier-dog-286349110.jpg",
+    image: "https://www.pupvine.com/wp-content/uploads/2022/12/blue-American-Bulldog-is-lying-on-the-bed.jpg",
     status: "Sad :("
   }
 ];
