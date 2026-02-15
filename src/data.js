@@ -1,14 +1,14 @@
 export const initialData = [
   {
     id: 1,
-    name: "Baby Yoda",
-    status: "Hungry",
-    image: "https://some-url.com/sad-yoda.jpg"
+    name: "Buddy",
+    image: "https://placedog.net/300/300?id=1",
+    status: "Sad 😢"
   },
   {
     id: 2,
-    name: "Mandalorian",
-    status: "Lost",
-    image: "https://some-url.com/lost-mando.jpg"
+    name: "Luna",
+    image: "https://placedog.net/300/300?id=2",
+    status: "Sad 😢"
   }
 ];
