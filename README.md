@@ -14,5 +14,5 @@ npm install
 
 npm run dev
 
-
+![alt text](PetKennelSnap.png)
 Note: Vite defaults to port 5173. Check your terminal output for the local URL.
