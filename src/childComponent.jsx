@@ -25,11 +25,13 @@ class ChildComponent extends React.Component {
 
         <h2>{name}</h2>
 
-        <img
-          src={image[curling]}
-          alt={name}
-          style={{ width: "100%", borderRadius: "10px" }}
-        />
+       <img
+        key={curling}   
+        src={image[curling]}
+        alt={name}
+        style={{ width: "100%", borderRadius: "10px" }}
+      />
+
 
         <p>{status}</p>
 

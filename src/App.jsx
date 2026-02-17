@@ -36,14 +36,15 @@ class App extends Component {
         <div style={{ display: "flex", gap: "20px", marginTop: "20px" }}>
           {this.state.pets.map(pet => (
             <ChildComponent
-              key={pet.id}
-              id={pet.id}
-              name={pet.name}
-              image={pet.image}
-              curling={pet.curling}
-              status={pet.status}
-              onInteract={this.handleInteract}
-            />
+             key={pet.id}
+             id={pet.id}
+             name={pet.name}
+             image={pet.image}
+             curling={pet.curling}   // THIS MUST BE HERE
+  status={pet.status}
+  onInteract={this.handleInteract}
+/>
+
           ))}
         </div>
       </div>
