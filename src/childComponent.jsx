@@ -12,7 +12,7 @@ class ChildComponent extends React.Component {
   }
 
   render() {
-    const { name, image, status } = this.props;
+    const { name, image, status, curling } = this.props;
 
     return (
       <div style={{
@@ -26,7 +26,7 @@ class ChildComponent extends React.Component {
         <h2>{name}</h2>
 
         <img
-          src={image}
+          src={image[curling]}
           alt={name}
           style={{ width: "100%", borderRadius: "10px" }}
         />
