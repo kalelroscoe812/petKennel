@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ChildComponent from './ChildComponent';
+import ChildComponent from './childComponent';
 import { initialData } from './data';
 
 class App extends Component {
@@ -15,8 +15,7 @@ class App extends Component {
     const updatedPets = this.state.pets.map(pet => {
       if (pet.id === id) {
 
-        const newCurling = 1 - pet.curling; // toggle 0 ↔ 1
-
+        const newCurling = 1 - pet.curling;
         return {
           ...pet,
           curling: newCurling,
